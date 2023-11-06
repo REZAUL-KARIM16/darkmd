@@ -1,0 +1,220 @@
+
+/* common css start*/
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li,ol{
+
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.align_items{
+
+    align-items: center;
+}
+
+.justify_content{
+
+    justify-content: center;
+}
+
+
+/* common css ends*/
+
+
+
+:root{
+
+    --bgcolor:#e05713;
+    --fontColorlight:white;
+    --borderColor: #ff8446;
+
+}
+
+
+
+
+nav{
+    
+    border-bottom: 1px solid rgb(73, 99, 219);
+    background-color: var(--bgcolor);
+
+}
+
+
+nav .logo{
+
+    width: 20%;
+
+
+}
+
+nav .menu{
+    width: 80%;
+    text-align: right;
+}
+
+
+nav ul li{
+
+   
+    display: inline-block;
+    
+    
+}
+
+nav ul li a{
+
+    color: var(--fontColorlight);
+    display: inline-block;
+    padding: 40px 15px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+
+
+nav ul li button{
+
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+    
+}
+
+
+
+
+
+
+/* banner */
+
+
+.banner{
+    background-image: url('../banner1.jpg');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.banner .container,.row{
+
+    height: 100%;
+}
+
+.banner_cnt{
+width: 100%;
+text-align: center;
+   
+}
+
+.banner_cnt h2{
+
+    font-size: 36px;
+    font-family: cursive;
+    padding-bottom: 12px;
+    color: var(--fontColorlight);
+   
+    
+}
+
+.banner_cnt h1{
+
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 12px;
+    color: var(--fontColorlight);
+    color: #ff8446;
+    
+}
+
+.banner_cnt p{
+
+    font-size: 18px;
+    color: white;
+   padding: 20px 0;
+}
+
+.banner_cnt button{
+
+    padding: 15px 25px;
+    border: none;
+    background-color: var(--bgcolor);
+    color:wheat;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border: 2px solid var(--borderColor);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
+.cursor{
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+
+}
+.sm-cursor
+
+{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height:10px;
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+   transition: 0.06s;
+   pointer-events: none;
+    
+
+}
+
+/* banner */
+
+
+.darkmood{
+
+    --bgcolor:rgb(15, 21, 109);
+    --fontColorlight:white;
+}
